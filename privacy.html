@@ -4,19 +4,53 @@
 <body>
 <nav><a href="index.html">Home</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
 <h1>Privacy policy</h1>
-<p class="muted">Last updated: October 27, 2026</p>
-<h2>What data poster uses</h2>
-<p>When the owner logs in to TikTok through poster, TikTok returns an access token and the account's
-open ID (scopes <code>user.info.basic</code> and <code>video.upload</code>). poster uses them only to upload the
-owner's own videos to the owner's own account.</p>
-<h2>Where it is stored</h2>
-<p>The token and a list of uploaded videos (file name, upload time and the ID TikTok returns) are
-stored only on the owner's computer. Nothing is sent to any server other than the platforms' own APIs.</p>
+<p class="muted">Last updated: October 28, 2026</p>
+
+<p>poster is a personal tool that runs on its owner's computer and uploads the owner's own videos
+to the owner's own YouTube, TikTok and Instagram accounts. This policy explains what it uses and keeps.</p>
+
+<h2>YouTube API Services</h2>
+<p>poster uses YouTube API Services to upload videos to YouTube. By using poster's YouTube features you
+agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling
+of your data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What poster accesses and keeps</h2>
+<ul>
+<li><b>YouTube:</b> when the owner signs in with Google, poster receives an OAuth token for the
+<code>youtube.upload</code> permission. It uses it only to upload the owner's videos to the owner's channel
+(the <code>videos.insert</code> method), with the title and description the owner wrote. It does not read
+channel data, analytics, comments, subscribers or anyone else's data. For each upload it keeps the video ID and
+link that YouTube returns.</li>
+<li><b>TikTok:</b> an access token and the account's open ID (permissions <code>user.info.basic</code> and
+<code>video.upload</code>), used only to send the owner's videos to the owner's TikTok inbox, and the upload ID
+TikTok returns.</li>
+<li><b>Instagram:</b> an access token, the account's user ID and username, used only to publish the owner's
+Reels, and the post ID and link Instagram returns.</li>
+</ul>
+
+<h2>How it is stored and used</h2>
+<p>Tokens and the list of uploads (file name, time, title or caption, and the ID and link each platform returns)
+are stored only on the owner's computer, in files readable only by the owner. They are used only to post the
+owner's videos on schedule and to show the owner what has been posted.</p>
+
 <h2>Sharing</h2>
-<p>No data is sold, shared or used for advertising or analytics.</p>
-<h2>Deleting data</h2>
-<p>The owner can revoke access at any time in TikTok's settings (Security and permissions, Apps)
-and delete poster's local files.</p>
+<p>poster does not sell, share or transfer any data, does not show ads or third-party content, and has no
+analytics. Data goes only to the platforms' own APIs. If the owner turns on phone notifications, a short
+message (the clip's name, its caption and the post's link) is sent to the owner's own phone through the ntfy.sh
+notification service.</p>
+
+<h2>Cookies and device storage</h2>
+<p>poster does not use cookies or tracking. Its dashboard runs on the owner's computer and keeps view
+preferences (such as filters) in that browser's local storage. This website sets no cookies.</p>
+
+<h2>Revoking access and deleting data</h2>
+<p>Access can be revoked at any time: for YouTube in the
+<a href="https://security.google.com/settings/security/permissions">Google security settings page</a>,
+for TikTok in the app under Settings, Security and permissions, Apps, and for Instagram under Settings,
+Apps and websites. After access is revoked, poster's stored token and upload records for that account are
+deleted within 7 days. To ask for any stored data to be deleted, email the address below; it is deleted
+within 7 days.</p>
+
 <h2>Contact</h2>
-<p>amineichou2022@gmail.com</p>
+<p>Questions or complaints: amineichou2022@gmail.com</p>
 </body></html>
